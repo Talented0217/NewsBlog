@@ -1,0 +1,5 @@
+{
+  // "mongoURI": "mongodb://localhost:27017/safeswap",
+  "mongoURI": "mongodb+srv://root:Strong1!@cluster0.nmf41fk.mongodb.net/blogs?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
