@@ -21,6 +21,13 @@ const ArticleSchema = new Schema({
         ref: 'Category',
         required: true
     },
+    tags: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: 'Tag',
+            required: true
+        }
+    ],
     comments: [{
         commenter: {
             type: Schema.Types.ObjectId,

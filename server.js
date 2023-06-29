@@ -7,7 +7,7 @@ app.use(express.json());
 connectDB();
 
 // Init Middleware
-app.use('/api/', require('./apis/user'));
+app.use('/api/user', require('./apis/user'));
 app.use(express.json());
 if (process.env.NODE_ENV === 'production') {
     // Set static folder
